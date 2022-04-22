@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48d269d-1b2b-4264-b7f1-d75c4b14a7bb" name="Changes" comment="定义一些变量">
+    <list default="true" id="d48d269d-1b2b-4264-b7f1-d75c4b14a7bb" name="Changes" comment="完成基本逻辑代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleShip/battleship.html" beforeDir="false" afterPath="$PROJECT_DIR$/BattleShip/battleship.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleShip/battleship.js" beforeDir="false" afterPath="$PROJECT_DIR$/BattleShip/battleship.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650527734027</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完成基本逻辑代码">
+      <created>1650595056582</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650595056582</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,12 +118,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/dev" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -137,6 +146,7 @@
     <MESSAGE value="创建相关页面" />
     <MESSAGE value="开一个分支" />
     <MESSAGE value="定义一些变量" />
-    <option name="LAST_COMMIT_MESSAGE" value="定义一些变量" />
+    <MESSAGE value="完成基本逻辑代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成基本逻辑代码" />
   </component>
 </project>
