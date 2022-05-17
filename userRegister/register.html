@@ -1,82 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>登录账号</title>
-<script type="text/javascript" src="register.js"></script>
-<style>
-      #register{
-      	text-align: left;
-        margin-left: 180px;
-        margin-right: 30px;
-        margin-top: 60px;
-        background: snow;
-      
-      }
-      #text{
-      	text-align:left;
-        margin-left:60px;
-        margin-top:100px;
-        font-size:28pt;
-        font-style:italic;
-        font-weight:lighter;
-        font-family:"华文行楷";
-      }
+    <meta charset="UTF-8">
+    <title>登录账号</title>
+    <script type="text/javascript" src="register.js"></script>
+    <style>
+        h1 {
+            text-align: center;
+        }
 
-</style>
+        #register {
+            text-align: left;
+            margin-left: 180px;
+            margin-right: 30px;
+            margin-top: 60px;
+            background: snow;
+
+        }
+
+    </style>
 </head>
 <body>
 
 
-	<h1 align="center"><b>用户注册</b></h1>
-	<div id="register">
-	<form action="" method="post">
-		<table>
-			<tr>
-				<td>学院</td>
+<h1><b>用户注册</b></h1>
+<div id="register">
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>学院</td>
                 <td><select name="institude">
-                	<option value="信息学院">信息学院</option>
+                    <option value="信息学院">信息学院</option>
                     <option value="地球学院" selected>地球学院</option>
                     <option value="艺术学院">艺术学院</option>
                     <option value="旅游学院">旅游学院</option>
                     <option value="外语学院">外语学院</option>
                     <option value="管媒学院">管媒学院</option>
-                   </select> 
+                </select>
                 </td>
-			<tr>
-				<td>登录账号</td>
-				<td><input type="text" name="id"  id="user" placeholder="输入账号" 
-				    onfocus="showUserTip()"  onblur="checkUser()"/>
-				</td>
-				<td><span id="userTip"></span></td>
-			</tr>
-			<tr>
-				<td>密码</td>
-				<td><input type="password" name="pwd" id="userPwd" placeholder="输入密码"
-				     onfocus="showPwdTip()"   onblur="checkPwd()"/>
-				</td>
-				<td><span id="pwdTip"></span></td>
-			</tr>
-			<tr>
-				<td>确认密码</td>
-				<td><input type="password" name="repwd" id="userRepwd" placeholder="再次输入
-					密码"   οnblur="checkRepwd()"   />
+            <tr>
+                <td>登录账号</td>
+                <td><input type="text" name="id" id="user" placeholder="输入账号"
+                           onfocus="showUserTip()" onblur="checkUser()"/>
+                </td>
+                <td><span id="userTip"></span></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td><input type="password" name="pwd" id="userPwd" placeholder="输入密码"
+                           onfocus="showPwdTip()" onblur="checkPwd()"/>
+                </td>
+                <td><span id="pwdTip"></span></td>
+            </tr>
+            <tr>
+                <td>确认密码</td>
+                <td><input type="password" name="repwd" id="userRepwd" placeholder="再次输入
+					密码" οnblur="checkRepwd()"/>
 
-				</td>
-				<td><span id="repwdTip"></span></td>
-			</tr>
-			<tr>
+                </td>
+                <td><span id="repwdTip"></span></td>
+            </tr>
+            <tr>
 
-				<td><input type="button" value="提交" onclick="gogo()" />
-				</td>
-				<td><input type="reset" name="重置" />
-				</td>
-			</tr>
-		</table>
-	</form>
+                <td><input type="button" value="提交" onclick="gogo()"/>
+                </td>
+                <td><input type="reset" name="重置"/>
+                </td>
+            </tr>
+        </table>
+    </form>
 
-   </div>
-           
+</div>
+
 </body>
 </html>
 

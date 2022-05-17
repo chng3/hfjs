@@ -12,7 +12,8 @@ var guesses = 0; //存储猜测次数的变量，计数器
 var isSunk = false; //是否全部击中开关,默认为否false，记录战舰是否被击沉的变量
 
 while (isSunk == false) {
-    guess = prompt("Ready, aim, fire! (enter a number 0-6 or enter q to quit game!):");
+    guess = prompt("Ready, aim, fire! " +
+        "(enter a number 0-6 or enter q to quit game!):");
     if (guess < 0 || guess > 6) {
         alert("Please enter a valid cell number!");
     } else {
