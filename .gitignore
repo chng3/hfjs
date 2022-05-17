@@ -1,4 +1,8 @@
-# Mac目录生成文件
-.DS_Store
+# Intellij
+.idea/
+*.iml
+*.iws
+out/
 
-#
+# Mac
+.DS_Store
