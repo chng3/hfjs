@@ -42,22 +42,22 @@
                 </td>
             <tr>
                 <td>登录账号</td>
-                <td><input type="text" name="id" id="user" placeholder="输入账号"
-                           onfocus="showUserTip()" onblur="checkUser()"/>
+                <td><label for="user"></label><input type="text" name="id" id="user" placeholder="输入账号"
+                                                     onfocus="showUserTip()" onblur="checkUser()"/>
                 </td>
                 <td><span id="userTip"></span></td>
             </tr>
             <tr>
                 <td>密码</td>
-                <td><input type="password" name="pwd" id="userPwd" placeholder="输入密码"
-                           onfocus="showPwdTip()" onblur="checkPwd()"/>
+                <td><label for="userPwd"></label><input type="password" name="pwd" id="userPwd" placeholder="输入密码"
+                                                        onfocus="showPwdTip()" onblur="checkPwd()"/>
                 </td>
                 <td><span id="pwdTip"></span></td>
             </tr>
             <tr>
                 <td>确认密码</td>
-                <td><input type="password" name="repwd" id="userRepwd" placeholder="再次输入
-					密码" οnblur="checkRepwd()"/>
+                <td><label for="userRepwd"></label><input type="password" name="repwd" id="userRepwd" placeholder="再次输入
+					密码" onblur="checkRepwd()"/>
 
                 </td>
                 <td><span id="repwdTip"></span></td>
